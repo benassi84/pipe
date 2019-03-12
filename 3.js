@@ -7,6 +7,6 @@ const write = (buffer, encoding, next) => {
 
 const end = (done) => {
   done();
-}
+};
 
 const stream = through(write, end);
